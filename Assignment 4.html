@@ -1,0 +1,102 @@
+<html>
+<head>
+ <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2874f0; 
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+  background: #ff9f00;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+/* Categories Row */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.categories div {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.categories div:hover {
+  color: #2874f0;
+
+
+ </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Flipkart</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, brands and more">
+      <button>🔍</button>
+    </div>
+    <div class="nav-links">
+      <a href="#">Login</a>
+      <a href="#">Cart 🛒</a>
+      <a href="#">Become a Seller</a>
+    </div>
+  </div>
+  <div class="categories">
+    <div><img src="	https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e00302d428f5c7be.png?q=100">
+ Minutes</div>
+ <div id="p">Minutes</p>
+    <div>Grocery</div>
+    <div>Mobiles</div>
+    <div>Fashion</div>
+    <div>Electronics</div>
+    <div>Home</div>
+    <div>Appliances</div>
+    <div>Travel</div>
+    <div>Beauty</div>
+  </div>
+
+</body>
+</html>
